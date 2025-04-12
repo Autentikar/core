@@ -1,0 +1,6 @@
+framework module AutentikarCore {
+  umbrella header "AutentikarCore.h"
+  export *
+
+  module * { export * }
+}
