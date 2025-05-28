@@ -13,51 +13,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum AutentikarErrorType : AutentikarCore.AutentikarTypeProtocol, Swift.Equatable {
-  case noInternetConnection
-  case server(_: Swift.String)
-  case custom(_: Swift.String)
-  case message(_: Swift.String)
-  case general
-  case noValidUrl
-  case noNextStepDefinition
-  public static func == (a: AutentikarCore.AutentikarErrorType, b: AutentikarCore.AutentikarErrorType) -> Swift.Bool
-}
-extension AutentikarCore.AutentikarErrorType {
-  public var localizedDescription: Swift.String {
-    get
-  }
-  public var title: Swift.String {
-    get
-  }
-}
-
-public enum AutentikarInstructionsType {
-  case idCard
-  case livenessCheck
-  public static func == (a: AutentikarCore.AutentikarInstructionsType, b: AutentikarCore.AutentikarInstructionsType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public enum AutentikarMethodType : Swift.Int, Swift.RawRepresentable {
-  case params
-  case token
-  case scan
-  case capture
-  case process
-  public typealias RawValue = Swift.String
-  public var rawValue: AutentikarCore.AutentikarMethodType.RawValue {
-    get
-  }
-  public init?(rawValue: Swift.String)
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class AutentikarExtensionViewController : AutentikarCore.AutentikarViewController {
-  @objc deinit
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
-  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AutentikarCore.AutentikarExtensionDelegate)?
-}
 @objc public enum AutentikarStageType : Swift.Int {
   case qa
   case production
@@ -66,104 +21,6 @@ public enum AutentikarMethodType : Swift.Int, Swift.RawRepresentable {
   public var rawValue: Swift.String {
     get
   }
-}
-@objc public protocol AutentikarCoreDelegate {
-  @objc func withError()
-  @objc func success()
-}
-public protocol AutentikarExtensionDelegate : AnyObject {
-  func success(_ child: UIKit.UIViewController, with response: Swift.String?)
-  func failure<T>(_ child: UIKit.UIViewController, with error: AutentikarCore.AutentikarError<T>) where T : AutentikarCore.AutentikarTypeProtocol
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency open class AutentikarViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency open var presenter: AutentikarCore.BaseViewModel?
-  @available(*, unavailable, message: "init(coder:) has not been implemented")
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor @preconcurrency public func defaultError(_ error: AutentikarCore.AutentikarError<AutentikarCore.AutentikarErrorType>)
-  @objc deinit
-  @_Concurrency.MainActor @preconcurrency open func error(_ with: AutentikarCore.AutentikarError<AutentikarCore.AutentikarErrorType>)
-}
-
-@objc @_inheritsConvenienceInitializers public class AutentikarManager : ObjectiveC.NSObject {
-  @objc deinit
-  public typealias AutentikarStepProtocol = AutentikarCore.AutentikarStepRouterProtocol
-  @objc public static let shared: AutentikarCore.AutentikarManager
-  @objc public func setCustomization(_ customization: AutentikarCore.AutentikarCoreCustomization)
-  @objc public func start(_ viewController: UIKit.UIViewController, with code: Swift.String, onError: @escaping () -> Swift.Void)
-  @objc public func register(for step: any AutentikarCore.AutentikarStepRouterProtocol)
-  @objc override dynamic public init()
-}
-@objc public enum AutentikarStepType : Swift.Int, Swift.RawRepresentable {
-  case cardCapture
-  case cardCaptureAK
-  case cardImageCapture
-  case cardNfcCapture
-  case confirm
-  case documentVerifier
-  case faceCapture
-  case faceTecCardID
-  case faceVerifier
-  case fileViewer
-  case nfcCapture
-  case requirePush
-  case result
-  case simpleCardCapture
-  case tokenCapture
-  case uanatacaOtp
-  case faceTecLiveness
-  public typealias RawValue = Swift.String
-  public var rawValue: AutentikarCore.AutentikarStepType.RawValue {
-    get
-  }
-  public init?(rawValue: Swift.String)
-}
-
-@objc @_inheritsConvenienceInitializers public class AutentikarCEManager : ObjectiveC.NSObject {
-  @objc deinit
-  public func getMethod(step: AutentikarCore.AutentikarStepType, method: AutentikarCore.AutentikarMethodType, request: Foundation.Data?, success: @escaping (AutentikarCore.NetworkResponse) -> Swift.Void, failure: @escaping (AutentikarCore.AutentikarError<AutentikarCore.AutentikarErrorType>) -> Swift.Void)
-  @objc override dynamic public init()
-}
-
-public enum AutentikarCERouter {
-  public static func setup() -> AutentikarCore.AutentikarCEManager
-}
-open class BaseViewModel : Combine.ObservableObject {
-  @Combine.Published @_projectedValueProperty($text) open var text: Swift.String {
-    get
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    set
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    _modify
-  }
-  open var $text: Combine.Published<Swift.String>.Publisher {
-    get
-    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-    set
-  }
-  public var btnError: Combine.PassthroughSubject<AutentikarCore.AutentikarError<AutentikarCore.AutentikarErrorType>?, Swift.Never>
-  @Combine.Published @_projectedValueProperty($isSomeViewPresented) public var isSomeViewPresented: Swift.Bool {
-    get
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    set
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    _modify
-  }
-  public var $isSomeViewPresented: Combine.Published<Swift.Bool>.Publisher {
-    get
-    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-    set
-  }
-  @objc deinit
-  public init()
-  open func defaultError(_ error: AutentikarCore.AutentikarError<AutentikarCore.AutentikarErrorType>)
-  public func changeText(_ text: Swift.String)
-  public func clearError()
-  public func presentSheet<Content>(@SwiftUICore.ViewBuilder content: () -> Content) where Content : SwiftUICore.View
-  public func dismissSheet()
-  public func instructionsView(instructionType: AutentikarCore.AutentikarInstructionsType, onAgree: @escaping () -> (), onDismiss: @escaping () -> ()) -> SwiftUICore.AnyView
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
 }
 @_inheritsConvenienceInitializers @objc public class AutentikarCoreCustomization : ObjectiveC.NSObject {
   @objc deinit
@@ -215,6 +72,22 @@ open class BaseViewModel : Combine.ObservableObject {
     @objc get
     @objc set
   }
+  @objc public var confirm: AutentikarCore.AutentikarCoreCustomization.Confirm {
+    @objc get
+    @objc set
+  }
+  @_inheritsConvenienceInitializers @objc public class Confirm : ObjectiveC.NSObject {
+    @objc deinit
+    @objc public var toggleColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var linkColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc override dynamic public init()
+  }
   @_inheritsConvenienceInitializers @objc public class Button : ObjectiveC.NSObject {
     @objc deinit
     @objc public var font: UIKit.UIFont {
@@ -234,6 +107,10 @@ open class BaseViewModel : Combine.ObservableObject {
       @objc set
     }
     @objc public var disabledColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var outlineColor: UIKit.UIColor {
       @objc get
       @objc set
     }
@@ -349,6 +226,41 @@ open class BaseViewModel : Combine.ObservableObject {
   }
   @objc override dynamic public init()
 }
+public protocol AutentikarTypeProtocol {
+}
+public enum AutentikarCERouter {
+  public static func setup() -> AutentikarCore.AutentikarCEManager
+}
+@objc @_inheritsConvenienceInitializers public class AutentikarManager : ObjectiveC.NSObject {
+  @objc deinit
+  public typealias AutentikarStepProtocol = AutentikarCore.AutentikarStepRouterProtocol
+  @objc public static let shared: AutentikarCore.AutentikarManager
+  @objc public func setCustomization(_ customization: AutentikarCore.AutentikarCoreCustomization)
+  @objc public func start(_ viewController: UIKit.UIViewController, with code: Swift.String, onError: @escaping () -> Swift.Void)
+  @objc public func register(for step: any AutentikarCore.AutentikarStepRouterProtocol)
+  @objc override dynamic public init()
+}
+
+public enum AutentikarMethodType : Swift.Int, Swift.RawRepresentable {
+  case params
+  case token
+  case scan
+  case capture
+  case process
+  public typealias RawValue = Swift.String
+  public var rawValue: AutentikarCore.AutentikarMethodType.RawValue {
+    get
+  }
+  public init?(rawValue: Swift.String)
+}
+@objc public protocol AutentikarCoreDelegate {
+  @objc func withError()
+  @objc func success()
+}
+@objc public protocol AutentikarStepRouterProtocol {
+  @objc var step: AutentikarCore.AutentikarStepType { get set }
+  @objc func createModule(parent vc: AutentikarCore.AutentikarViewController) -> AutentikarCore.AutentikarExtensionViewController?
+}
 @_inheritsConvenienceInitializers @objc public class AutentikarConfiguration : ObjectiveC.NSObject {
   @objc deinit
   public static var shared: AutentikarCore.AutentikarConfiguration
@@ -362,16 +274,118 @@ open class BaseViewModel : Combine.ObservableObject {
   @objc public var stage: AutentikarCore.AutentikarStageType
   @objc public var alias: Swift.String
 }
-@objc public protocol AutentikarStepRouterProtocol {
-  @objc var step: AutentikarCore.AutentikarStepType { get set }
-  @objc func createModule(parent vc: AutentikarCore.AutentikarViewController) -> AutentikarCore.AutentikarExtensionViewController?
+
+public enum AutentikarInstructionsType {
+  case idCard
+  case livenessCheck
+  public static func == (a: AutentikarCore.AutentikarInstructionsType, b: AutentikarCore.AutentikarInstructionsType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+open class BaseViewModel : Combine.ObservableObject {
+  @Combine.Published @_projectedValueProperty($text) open var text: Swift.String {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  open var $text: Combine.Published<Swift.String>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public var btnError: Combine.PassthroughSubject<AutentikarCore.AutentikarError<AutentikarCore.AutentikarErrorType>?, Swift.Never>
+  @Combine.Published @_projectedValueProperty($isSomeViewPresented) public var isSomeViewPresented: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $isSomeViewPresented: Combine.Published<Swift.Bool>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @objc deinit
+  public init()
+  open func defaultError(_ error: AutentikarCore.AutentikarError<AutentikarCore.AutentikarErrorType>)
+  public func changeText(_ text: Swift.String)
+  public func clearError()
+  public func presentSheet<Content>(@SwiftUICore.ViewBuilder content: () -> Content) where Content : SwiftUICore.View
+  public func dismissSheet()
+  public func instructionsView(instructionType: AutentikarCore.AutentikarInstructionsType, onAgree: @escaping () -> (), onDismiss: @escaping () -> ()) -> SwiftUICore.AnyView
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+public protocol AutentikarExtensionDelegate : AnyObject {
+  func success(_ child: UIKit.UIViewController, with response: Swift.String?)
+  func failure<T>(_ child: UIKit.UIViewController, with error: AutentikarCore.AutentikarError<T>) where T : AutentikarCore.AutentikarTypeProtocol
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency open class AutentikarViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency open var presenter: AutentikarCore.BaseViewModel?
+  @available(*, unavailable, message: "init(coder:) has not been implemented")
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public func defaultError(_ error: AutentikarCore.AutentikarError<AutentikarCore.AutentikarErrorType>)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency open func error(_ with: AutentikarCore.AutentikarError<AutentikarCore.AutentikarErrorType>)
+}
+public enum AutentikarErrorType : AutentikarCore.AutentikarTypeProtocol, Swift.Equatable {
+  case noInternetConnection
+  case server(_: Swift.String)
+  case custom(_: Swift.String)
+  case message(_: Swift.String)
+  case general
+  case noValidUrl
+  case noNextStepDefinition
+  public static func == (a: AutentikarCore.AutentikarErrorType, b: AutentikarCore.AutentikarErrorType) -> Swift.Bool
+}
+extension AutentikarCore.AutentikarErrorType {
+  public var localizedDescription: Swift.String {
+    get
+  }
+  public var title: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class AutentikarCEManager : ObjectiveC.NSObject {
+  @objc deinit
+  public func getMethod(step: AutentikarCore.AutentikarStepType, method: AutentikarCore.AutentikarMethodType, request: Foundation.Data?, success: @escaping (AutentikarCore.NetworkResponse) -> Swift.Void, failure: @escaping (AutentikarCore.AutentikarError<AutentikarCore.AutentikarErrorType>) -> Swift.Void)
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class AutentikarExtensionViewController : AutentikarCore.AutentikarViewController {
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AutentikarCore.AutentikarExtensionDelegate)?
 }
 
-public protocol AutentikarTypeProtocol {
-}
-public struct NetworkResponse {
-  public let data: Foundation.Data
-  public let statusCode: Swift.Int
+@objc public enum AutentikarStepType : Swift.Int, Swift.RawRepresentable {
+  case cardCapture
+  case cardCaptureAK
+  case cardImageCapture
+  case cardNfcCapture
+  case confirm
+  case documentVerifier
+  case faceCapture
+  case faceTecCardID
+  case faceVerifier
+  case fileViewer
+  case nfcCapture
+  case requirePush
+  case result
+  case simpleCardCapture
+  case tokenCapture
+  case uanatacaOtp
+  case faceTecLiveness
+  public typealias RawValue = Swift.String
+  public var rawValue: AutentikarCore.AutentikarStepType.RawValue {
+    get
+  }
+  public init?(rawValue: Swift.String)
 }
 public enum AutentikarActionType : AutentikarCore.AutentikarTypeProtocol {
   case userCancel
@@ -383,17 +397,23 @@ public enum AutentikarActionType : AutentikarCore.AutentikarTypeProtocol {
     get
   }
 }
+
+public struct NetworkResponse {
+  public let data: Foundation.Data
+  public let statusCode: Swift.Int
+}
+
 public struct AutentikarError<T> : Swift.Error {
   public let type: T
   public init(type: T)
 }
-extension AutentikarCore.AutentikarInstructionsType : Swift.Equatable {}
-extension AutentikarCore.AutentikarInstructionsType : Swift.Hashable {}
-extension AutentikarCore.AutentikarMethodType : Swift.Equatable {}
-extension AutentikarCore.AutentikarMethodType : Swift.Hashable {}
 extension AutentikarCore.AutentikarStageType : Swift.Equatable {}
 extension AutentikarCore.AutentikarStageType : Swift.Hashable {}
 extension AutentikarCore.AutentikarStageType : Swift.RawRepresentable {}
+extension AutentikarCore.AutentikarMethodType : Swift.Equatable {}
+extension AutentikarCore.AutentikarMethodType : Swift.Hashable {}
+extension AutentikarCore.AutentikarInstructionsType : Swift.Equatable {}
+extension AutentikarCore.AutentikarInstructionsType : Swift.Hashable {}
 extension AutentikarCore.AutentikarStepType : Swift.Equatable {}
 extension AutentikarCore.AutentikarStepType : Swift.Hashable {}
 extension AutentikarCore.AutentikarActionType : Swift.Equatable {}
