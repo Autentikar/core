@@ -88,7 +88,6 @@ public enum AutentikarMethodType : Swift.Int, Swift.RawRepresentable {
 @objc public enum AutentikarStageType : Swift.Int {
   case sandbox
   case production
-  case qa
   public typealias RawValue = Swift.String
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)

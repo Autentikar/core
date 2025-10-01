@@ -2105,47 +2105,6 @@
             "fixedbinaryorder": 1
           },
           {
-            "kind": "Var",
-            "name": "qa",
-            "printedName": "qa",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AutentikarCore.AutentikarStageType.Type) -> AutentikarCore.AutentikarStageType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AutentikarStageType",
-                    "printedName": "AutentikarCore.AutentikarStageType",
-                    "usr": "c:@M@AutentikarCore@E@AutentikarStageType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AutentikarCore.AutentikarStageType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AutentikarStageType",
-                        "printedName": "AutentikarCore.AutentikarStageType",
-                        "usr": "c:@M@AutentikarCore@E@AutentikarStageType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@AutentikarCore@E@AutentikarStageType@AutentikarStageTypeQa",
-            "mangledName": "$s14AutentikarCore0A9StageTypeO2qayA2CmF",
-            "moduleName": "AutentikarCore",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 2
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -9992,13 +9951,6 @@
       "offset": 225,
       "length": 10,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Common\/Types\/AutentikarStageType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 2,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Common\/Types\/AutentikarStatusType.swift",

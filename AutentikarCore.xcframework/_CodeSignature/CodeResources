@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/AutentikarCore.framework/AutentikarCore</key>
 		<data>
-		7mJXJMImXWeUob08piktEx7sPLM=
+		H0hoaERIkN0lEu3iwqGpgXZwwgo=
 		</data>
 		<key>ios-arm64/AutentikarCore.framework/Headers/AutentikarCore.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>ios-arm64/AutentikarCore.framework/Info.plist</key>
 		<data>
-		68U6z2llbD5+2iwOBfKfjg8bdfU=
+		+1WbRWz6BuEmBEYEdXfRd6g7sAQ=
 		</data>
 		<key>ios-arm64/AutentikarCore.framework/Modules/AutentikarCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		5GcXV21p/j1FosJy2zdZQ/bpS94=
+		LGtNqNuOfBLVParfLsdnR1Lm6DI=
 		</data>
 		<key>ios-arm64/AutentikarCore.framework/Modules/AutentikarCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Dq4yiOwt+4wvYnR7CGrGTkee+7I=
+		HRaFbBItRt6LBkjcv7tFOy9/IuU=
 		</data>
 		<key>ios-arm64/AutentikarCore.framework/Modules/AutentikarCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>ios-arm64/AutentikarCore.framework/Modules/AutentikarCore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Dq4yiOwt+4wvYnR7CGrGTkee+7I=
+		HRaFbBItRt6LBkjcv7tFOy9/IuU=
 		</data>
 		<key>ios-arm64/AutentikarCore.framework/Modules/module.modulemap</key>
 		<data>
@@ -56,7 +56,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qKofHuWtDfWtj7yfghVr7Q8kQ5A=
+			QFOxqsghJevjyE7ySvnS0eUpV8U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -65,22 +65,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1W3rLQ/Upb+zkogg8iQVZMwoB24=
+			wFH4ii94stZe/j7fDm5qzkiOLak=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>ios-arm64/dSYMs/AutentikarCore.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		YKRuByJk+sDCF2PtfiQm9U5u3Ps=
+		dyaoVYjzCptfcX/q65RrCPwFJ68=
 		</data>
 		<key>ios-arm64/dSYMs/AutentikarCore.framework.dSYM/Contents/Resources/DWARF/AutentikarCore</key>
 		<data>
-		59N2l/g3rjujybRZu5Vzc/KfI9A=
+		qr4sZnd1aXkyGDbz637v5GadJ34=
 		</data>
 		<key>ios-arm64/dSYMs/AutentikarCore.framework.dSYM/Contents/Resources/Relocations/aarch64/AutentikarCore.yml</key>
 		<data>
-		K04/rsoxTWU25y7SbZmE42wf500=
+		gli5+HypYCn3j0RZu6vkKUpX5NU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XHh/qWSgtTCxlfUtrT0UqG1H4EnupjpMUkdFWEiKyTQ=
+			FhfZ7sqVRJvM+HHEFubWrqDMPN8sPf4E/audsFn3qxA=
 			</data>
 		</dict>
 		<key>ios-arm64/AutentikarCore.framework/Headers/AutentikarCore.h</key>
@@ -110,21 +110,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			70CYepyw3trw0D8Rp2xO80wjZlEKsEADyie79h3rI2A=
+			yuXVjrAHJW2lD0hQ8q8SOSyXIqLzttVwk8XJb2vIh+Y=
 			</data>
 		</dict>
 		<key>ios-arm64/AutentikarCore.framework/Modules/AutentikarCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0KTf7rHY20aXf62hIZyuuyiOzYRqH4SdjJ7PSJ0ixR0=
+			V/rIx+V71kuNzgWQJglQ5XtDFoQWJGE7t02RTVIZyv8=
 			</data>
 		</dict>
 		<key>ios-arm64/AutentikarCore.framework/Modules/AutentikarCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hx0LSBHc8OELQ71I8dYR0AYMDFgoKc3s4J1uSILkPM4=
+			hzlJzitS1kT7GN+Lat24yBowsAyta/jiMOZd4P6VlWg=
 			</data>
 		</dict>
 		<key>ios-arm64/AutentikarCore.framework/Modules/AutentikarCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -138,7 +138,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hx0LSBHc8OELQ71I8dYR0AYMDFgoKc3s4J1uSILkPM4=
+			hzlJzitS1kT7GN+Lat24yBowsAyta/jiMOZd4P6VlWg=
 			</data>
 		</dict>
 		<key>ios-arm64/AutentikarCore.framework/Modules/module.modulemap</key>
@@ -173,7 +173,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sBZ67Ln/4Qo15XBuV3hkQZlddZrRScWNvflQ5LIcVKg=
+			/xTJQXdAK4Xaau0ocV+Xd8QBO0hSmQOncNKc904jzIU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -182,7 +182,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/F45JuVcuwcRjY3DgRuGLjCN37yox2hICnPqRqVzJLQ=
+			8JejaTOEDSnRnCUh8qTB6pVzBOw1E0/JabphXNBLy5M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -191,21 +191,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rBENyGWtfOorSwgrx46L33mf22dCl9ttgd2rwMgQHxo=
+			tGVHIfOo2Gwsj9fMcdCjthBXNVnbo1mkX1WFNf/YJRk=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/AutentikarCore.framework.dSYM/Contents/Resources/DWARF/AutentikarCore</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K53J8i+64hK4xeVqOc1xt4QNitO8RauWwRhpB5fEA14=
+			suZzS/I9fSLh70/OkxLarDPZ43PU0pJcbOdAGi9GITI=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/AutentikarCore.framework.dSYM/Contents/Resources/Relocations/aarch64/AutentikarCore.yml</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bsJOYrxaMb35tYP9miH4ozVlrMM6d2Njt+V0eTBNE5w=
+			24oB8HrDNkehuXsj+AjWGD6n0aml3fFoYpb4FfuSeUM=
 			</data>
 		</dict>
 	</dict>
