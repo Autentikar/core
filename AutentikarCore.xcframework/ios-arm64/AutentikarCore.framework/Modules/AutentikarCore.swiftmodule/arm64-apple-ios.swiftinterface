@@ -192,6 +192,7 @@ open class BaseViewModel : Combine.ObservableObject {
   @objc public var stage: AutentikarCore.AutentikarStageType
   @objc public var alias: Swift.String
   @objc public var url: Swift.String?
+  @objc public var enableInstructions: Swift.Bool
 }
 public struct NetworkResponse {
   public let data: Foundation.Data
