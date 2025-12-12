@@ -10316,14 +10316,14 @@
       "kind": "StringLiteral",
       "offset": 607,
       "length": 8,
-      "value": "\"E84E1A\""
+      "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
       "offset": 637,
       "length": 8,
-      "value": "\"993000\""
+      "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
@@ -10344,313 +10344,313 @@
       "kind": "StringLiteral",
       "offset": 2598,
       "length": 8,
-      "value": "\"E84E1A\""
+      "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
       "offset": 2882,
       "length": 8,
-      "value": "\"E84E1A\""
+      "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
       "offset": 3245,
-      "length": 14,
-      "value": "\"Rubik-Medium\""
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 3267,
+      "offset": 3278,
       "length": 2,
-      "value": "15"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3389,
-      "length": 14,
-      "value": "\"Rubik-Medium\""
+      "offset": 3400,
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3440,
+      "offset": 3462,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3725,
-      "length": 14,
-      "value": "\"Rubik-Medium\""
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
-      "kind": "IntegerLiteral",
       "offset": 3747,
-      "length": 2,
-      "value": "15"
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 3807,
+      "offset": 3780,
       "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 4387,
-      "length": 8,
-      "value": "\"E84E1A\""
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 4951,
-      "length": 8,
-      "value": "\"993000\""
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 5240,
-      "length": 8,
-      "value": "\"E84E1A\""
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 5804,
-      "length": 8,
-      "value": "\"E84E1A\""
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 6083,
-      "length": 8,
-      "value": "\"E84E1A\""
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 6448,
-      "length": 14,
-      "value": "\"Rubik-Medium\""
+      "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 6470,
+      "offset": 3840,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 4420,
+      "length": 8,
+      "value": "\"00B6D3\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 4984,
+      "length": 8,
+      "value": "\"041F30\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 5273,
+      "length": 8,
+      "value": "\"00B6D3\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 5837,
+      "length": 8,
+      "value": "\"00B6D3\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 6116,
+      "length": 8,
+      "value": "\"00B6D3\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 6481,
+      "length": 26,
+      "value": "\"PlusJakartaSans-SemiBold\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6515,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6592,
-      "length": 14,
-      "value": "\"Rubik-Medium\""
+      "offset": 6637,
+      "length": 26,
+      "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6643,
+      "offset": 6700,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6928,
-      "length": 14,
-      "value": "\"Rubik-Medium\""
+      "offset": 6985,
+      "length": 26,
+      "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 6950,
+      "offset": 7019,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 7010,
+      "offset": 7079,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7626,
-      "length": 13,
-      "value": "\"Rubik-Light\""
+      "offset": 7695,
+      "length": 23,
+      "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 7647,
+      "offset": 7726,
       "length": 2,
-      "value": "12"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7769,
-      "length": 13,
-      "value": "\"Rubik-Light\""
+      "offset": 7848,
+      "length": 23,
+      "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7819,
+      "offset": 7908,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8104,
-      "length": 13,
-      "value": "\"Rubik-Light\""
+      "offset": 8193,
+      "length": 23,
+      "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8125,
+      "offset": 8224,
       "length": 2,
-      "value": "12"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8185,
+      "offset": 8284,
       "length": 2,
-      "value": "12"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8803,
-      "length": 13,
-      "value": "\"Rubik-Light\""
+      "offset": 8902,
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8824,
+      "offset": 8935,
       "length": 2,
-      "value": "17"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8946,
-      "length": 13,
-      "value": "\"Rubik-Light\""
+      "offset": 9057,
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8996,
+      "offset": 9119,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9281,
-      "length": 13,
-      "value": "\"Rubik-Light\""
+      "offset": 9404,
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 9302,
+      "offset": 9437,
       "length": 2,
-      "value": "17"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 9362,
+      "offset": 9497,
       "length": 2,
-      "value": "17"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9981,
-      "length": 15,
-      "value": "\"Rubik-Regular\""
+      "offset": 10116,
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10004,
+      "offset": 10149,
       "length": 2,
-      "value": "15"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10126,
-      "length": 15,
-      "value": "\"Rubik-Regular\""
+      "offset": 10271,
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10178,
+      "offset": 10333,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10463,
-      "length": 15,
-      "value": "\"Rubik-Regular\""
+      "offset": 10618,
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10486,
+      "offset": 10651,
       "length": 2,
-      "value": "15"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10546,
+      "offset": 10711,
       "length": 2,
-      "value": "15"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11090,
+      "offset": 11255,
       "length": 15,
       "value": "\"footer_text_1\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11131,
+      "offset": 11296,
       "length": 15,
       "value": "\"footer_text_2\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11172,
+      "offset": 11337,
       "length": 15,
       "value": "\"footer_text_3\""
     },
