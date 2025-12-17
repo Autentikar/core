@@ -1,3 +1,3 @@
 # AutentikarCore
 
-## version 1.0.9 :rocket:
+## version 1.0.10 :rocket:
