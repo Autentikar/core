@@ -128,17 +128,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -315,38 +315,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -357,10 +329,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -371,10 +357,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -601,38 +601,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -643,10 +615,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -657,10 +643,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -904,17 +904,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1372,20 +1372,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AutentikarTypeProtocol",
             "printedName": "AutentikarTypeProtocol",
             "usr": "s:14AutentikarCore0A12TypeProtocolP",
@@ -1393,10 +1379,24 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1594,17 +1594,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1974,17 +1974,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2200,17 +2200,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2713,17 +2713,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2818,6 +2818,544 @@
         "moduleName": "AutentikarCore",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AutentikarCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AutentikarCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutentikarLoadingProvider",
+        "printedName": "AutentikarLoadingProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarLoadingProvider",
+                "printedName": "AutentikarCore.AutentikarLoadingProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarLoadingProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarLoadingProvider(im)init",
+            "mangledName": "$s14AutentikarCore0A15LoadingProviderCACycfc",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeView",
+            "printedName": "makeView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AutentikarCore0A15LoadingProviderC8makeView7SwiftUI03AnyF0VyF",
+            "mangledName": "$s14AutentikarCore0A15LoadingProviderC8makeView7SwiftUI03AnyF0VyF",
+            "moduleName": "AutentikarCore",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarLoadingProvider",
+        "mangledName": "$s14AutentikarCore0A15LoadingProviderC",
+        "moduleName": "AutentikarCore",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutentikarSwiftUILoadingProvider",
+        "printedName": "AutentikarSwiftUILoadingProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarSwiftUILoadingProvider",
+                "printedName": "AutentikarCore.AutentikarSwiftUILoadingProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarSwiftUILoadingProvider"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AutentikarCore0A22SwiftUILoadingProviderC7contentACxyc_tc0C2UI4ViewRzlufc",
+            "mangledName": "$s14AutentikarCore0A22SwiftUILoadingProviderC7contentACxyc_tc0C2UI4ViewRzlufc",
+            "moduleName": "AutentikarCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeView",
+            "printedName": "makeView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AutentikarCore0A22SwiftUILoadingProviderC8makeView0C2UI03AnyG0VyF",
+            "mangledName": "$s14AutentikarCore0A22SwiftUILoadingProviderC8makeView0C2UI03AnyG0VyF",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarSwiftUILoadingProvider",
+                "printedName": "AutentikarCore.AutentikarSwiftUILoadingProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarSwiftUILoadingProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarSwiftUILoadingProvider(im)init",
+            "mangledName": "$s14AutentikarCore0A22SwiftUILoadingProviderCACycfc",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarSwiftUILoadingProvider",
+        "mangledName": "$s14AutentikarCore0A22SwiftUILoadingProviderC",
+        "moduleName": "AutentikarCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@AutentikarCore@objc(cs)AutentikarLoadingProvider",
+        "superclassNames": [
+          "AutentikarCore.AutentikarLoadingProvider",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutentikarUIKitLoadingProvider",
+        "printedName": "AutentikarUIKitLoadingProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarUIKitLoadingProvider",
+                "printedName": "AutentikarCore.AutentikarUIKitLoadingProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarUIKitLoadingProvider"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarUIKitLoadingProvider(im)initWithView:",
+            "mangledName": "$s14AutentikarCore0A20UIKitLoadingProviderC4viewACSo6UIViewC_tcfc",
+            "moduleName": "AutentikarCore",
+            "objc_name": "initWithView:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewBuilder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarUIKitLoadingProvider",
+                "printedName": "AutentikarCore.AutentikarUIKitLoadingProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarUIKitLoadingProvider"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> UIKit.UIView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AutentikarCore0A20UIKitLoadingProviderC11viewBuilderACSo6UIViewCyc_tcfc",
+            "mangledName": "$s14AutentikarCore0A20UIKitLoadingProviderC11viewBuilderACSo6UIViewCyc_tcfc",
+            "moduleName": "AutentikarCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeView",
+            "printedName": "makeView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AutentikarCore0A20UIKitLoadingProviderC8makeView7SwiftUI03AnyG0VyF",
+            "mangledName": "$s14AutentikarCore0A20UIKitLoadingProviderC8makeView7SwiftUI03AnyG0VyF",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarUIKitLoadingProvider",
+                "printedName": "AutentikarCore.AutentikarUIKitLoadingProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarUIKitLoadingProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarUIKitLoadingProvider(im)init",
+            "mangledName": "$s14AutentikarCore0A20UIKitLoadingProviderCACycfc",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarUIKitLoadingProvider",
+        "mangledName": "$s14AutentikarCore0A20UIKitLoadingProviderC",
+        "moduleName": "AutentikarCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:@M@AutentikarCore@objc(cs)AutentikarLoadingProvider",
+        "superclassNames": [
+          "AutentikarCore.AutentikarLoadingProvider",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
         ]
       },
       {
@@ -3104,38 +3642,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -3146,10 +3656,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -3160,10 +3684,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -3653,38 +4191,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -3695,10 +4205,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -3709,10 +4233,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -4592,20 +5130,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "ObservableObject",
             "printedName": "ObservableObject",
             "children": [
@@ -4625,6 +5149,20 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4637,6 +5175,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AutentikarCore"
       },
       {
         "kind": "TypeDecl",
@@ -5549,38 +6094,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -5591,10 +6108,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -5605,10 +6136,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -6765,6 +7310,118 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "loadingView",
+            "printedName": "loadingView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AutentikarCore.AutentikarLoadingProvider?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutentikarLoadingProvider",
+                    "printedName": "AutentikarCore.AutentikarLoadingProvider",
+                    "usr": "c:@M@AutentikarCore@objc(cs)AutentikarLoadingProvider"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarCoreCustomization(py)loadingView",
+            "mangledName": "$s14AutentikarCore0aB13CustomizationC11loadingViewAA0A15LoadingProviderCSgvp",
+            "moduleName": "AutentikarCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AutentikarCore.AutentikarLoadingProvider?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AutentikarLoadingProvider",
+                        "printedName": "AutentikarCore.AutentikarLoadingProvider",
+                        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarLoadingProvider"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarCoreCustomization(im)loadingView",
+                "mangledName": "$s14AutentikarCore0aB13CustomizationC11loadingViewAA0A15LoadingProviderCSgvg",
+                "moduleName": "AutentikarCore",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AutentikarCore.AutentikarLoadingProvider?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AutentikarLoadingProvider",
+                        "printedName": "AutentikarCore.AutentikarLoadingProvider",
+                        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarLoadingProvider"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarCoreCustomization(im)setLoadingView:",
+                "mangledName": "$s14AutentikarCore0aB13CustomizationC11loadingViewAA0A15LoadingProviderCSgvs",
+                "moduleName": "AutentikarCore",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AutentikarCore0aB13CustomizationC11loadingViewAA0A15LoadingProviderCSgvM",
+                "mangledName": "$s14AutentikarCore0aB13CustomizationC11loadingViewAA0A15LoadingProviderCSgvM",
+                "moduleName": "AutentikarCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "TypeDecl",
             "name": "Confirm",
             "printedName": "Confirm",
@@ -6988,38 +7645,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -7030,10 +7659,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -7044,10 +7687,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -7627,38 +8284,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -7669,10 +8298,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -7683,10 +8326,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -8002,38 +8659,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -8044,10 +8673,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -8058,10 +8701,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -8289,38 +8946,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -8331,10 +8960,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -8345,10 +8988,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -8576,38 +9233,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -8618,10 +9247,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -8632,10 +9275,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -8863,38 +9520,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -8905,10 +9534,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -8919,10 +9562,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -9262,38 +9919,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -9304,10 +9933,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -9318,10 +9961,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -9368,38 +10025,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -9410,10 +10039,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -9424,10 +10067,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -9917,45 +10574,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -9966,17 +10588,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -9987,10 +10609,45 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
             "name": "SendableMetatype",
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       }
@@ -10288,7 +10945,21 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Common\/View\/LoadingView\/LoadingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 338,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Common\/View\/LoadingView\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Common\/View\/LoadingView\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 556,
       "length": 1,
       "value": "0"
     },
@@ -10372,42 +11043,42 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Configuration\/AutentikarConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 400,
+      "offset": 415,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Configuration\/AutentikarConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 464,
+      "offset": 479,
       "length": 21,
       "value": "\"com.autentikar.core\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Configuration\/AutentikarConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 700,
+      "offset": 715,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Configuration\/AutentikarConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 802,
+      "offset": 817,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Configuration\/AutentikarConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 887,
+      "offset": 902,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Configuration\/AutentikarConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 933,
+      "offset": 948,
       "length": 5,
       "value": "false"
     },
@@ -10421,336 +11092,329 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 637,
-      "length": 8,
-      "value": "\"00B6D3\""
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 1270,
+      "offset": 1240,
       "length": 12,
       "value": "\"Autentikar\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "BooleanLiteral",
-      "offset": 1476,
+      "offset": 1446,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 2598,
+      "offset": 2813,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 2882,
+      "offset": 3097,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3245,
+      "offset": 3460,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 3278,
+      "offset": 3493,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3400,
+      "offset": 3615,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3462,
+      "offset": 3677,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3747,
+      "offset": 3962,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 3780,
+      "offset": 3995,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 3840,
+      "offset": 4055,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 4420,
+      "offset": 4635,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 4984,
+      "offset": 5199,
       "length": 8,
       "value": "\"041F30\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 5273,
+      "offset": 5488,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 5837,
+      "offset": 6052,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6116,
+      "offset": 6331,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6481,
+      "offset": 6696,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 6515,
+      "offset": 6730,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6637,
+      "offset": 6852,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6700,
+      "offset": 6915,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6985,
+      "offset": 7200,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 7019,
+      "offset": 7234,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 7079,
+      "offset": 7294,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7695,
+      "offset": 7910,
       "length": 23,
       "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 7726,
+      "offset": 7941,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7848,
+      "offset": 8063,
       "length": 23,
       "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7908,
+      "offset": 8123,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8193,
+      "offset": 8408,
       "length": 23,
       "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8224,
+      "offset": 8439,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8284,
+      "offset": 8499,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8902,
+      "offset": 9117,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8935,
+      "offset": 9150,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9057,
+      "offset": 9272,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9119,
+      "offset": 9334,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9404,
+      "offset": 9619,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 9437,
+      "offset": 9652,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 9497,
+      "offset": 9712,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10116,
+      "offset": 10331,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10149,
+      "offset": 10364,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10271,
+      "offset": 10486,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10333,
+      "offset": 10548,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10618,
+      "offset": 10833,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10651,
+      "offset": 10866,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10711,
+      "offset": 10926,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11255,
+      "offset": 11470,
       "length": 15,
       "value": "\"footer_text_1\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11296,
+      "offset": 11511,
       "length": 15,
       "value": "\"footer_text_2\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11337,
+      "offset": 11552,
       "length": 15,
       "value": "\"footer_text_3\""
     },
@@ -10823,6 +11487,13 @@
       "offset": 4899,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/View\/Main\/MainViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3712,
+      "length": 3,
+      "value": "0.4"
     },
     {
       "filePath": "\/Users\/yesidm\/Library\/Developer\/Xcode\/DerivedData\/AutentikarCore-hfvytmmgqdtwtdexfzgjrjhmgiyq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AutentikarCore\/IntermediateBuildFilesPath\/AutentikarCore.build\/Release-iphoneos\/AutentikarCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
