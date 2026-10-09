@@ -2857,6 +2857,880 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AutentikarCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutentikarInstructionActions",
+        "printedName": "AutentikarInstructionActions",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "agree",
+            "printedName": "agree()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions(im)agree",
+            "mangledName": "$s14AutentikarCore0A18InstructionActionsC5agreeyyF",
+            "moduleName": "AutentikarCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions(im)dismiss",
+            "mangledName": "$s14AutentikarCore0A18InstructionActionsC7dismissyyF",
+            "moduleName": "AutentikarCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarInstructionActions",
+                "printedName": "AutentikarCore.AutentikarInstructionActions",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions(im)init",
+            "mangledName": "$s14AutentikarCore0A18InstructionActionsCACycfc",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions",
+        "mangledName": "$s14AutentikarCore0A18InstructionActionsC",
+        "moduleName": "AutentikarCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutentikarInstructionViewProvider",
+        "printedName": "AutentikarInstructionViewProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarInstructionViewProvider",
+                "printedName": "AutentikarCore.AutentikarInstructionViewProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider(im)init",
+            "mangledName": "$s14AutentikarCore0A23InstructionViewProviderCACycfc",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeView",
+            "printedName": "makeView(actions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarInstructionActions",
+                "printedName": "AutentikarCore.AutentikarInstructionActions",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AutentikarCore0A23InstructionViewProviderC04makeD07actions7SwiftUI03AnyD0VAA0aC7ActionsC_tF",
+            "mangledName": "$s14AutentikarCore0A23InstructionViewProviderC04makeD07actions7SwiftUI03AnyD0VAA0aC7ActionsC_tF",
+            "moduleName": "AutentikarCore",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider",
+        "mangledName": "$s14AutentikarCore0A23InstructionViewProviderC",
+        "moduleName": "AutentikarCore",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutentikarSwiftUIInstructionViewProvider",
+        "printedName": "AutentikarSwiftUIInstructionViewProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarSwiftUIInstructionViewProvider",
+                "printedName": "AutentikarCore.AutentikarSwiftUIInstructionViewProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarSwiftUIInstructionViewProvider"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AutentikarCore.AutentikarInstructionActions) -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutentikarInstructionActions",
+                    "printedName": "AutentikarCore.AutentikarInstructionActions",
+                    "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AutentikarCore0A30SwiftUIInstructionViewProviderC7contentACxAA0A18InstructionActionsCc_tc0C2UI0E0Rzlufc",
+            "mangledName": "$s14AutentikarCore0A30SwiftUIInstructionViewProviderC7contentACxAA0A18InstructionActionsCc_tc0C2UI0E0Rzlufc",
+            "moduleName": "AutentikarCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeView",
+            "printedName": "makeView(actions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarInstructionActions",
+                "printedName": "AutentikarCore.AutentikarInstructionActions",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AutentikarCore0A30SwiftUIInstructionViewProviderC04makeE07actions0C2UI03AnyE0VAA0A18InstructionActionsC_tF",
+            "mangledName": "$s14AutentikarCore0A30SwiftUIInstructionViewProviderC04makeE07actions0C2UI03AnyE0VAA0A18InstructionActionsC_tF",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarSwiftUIInstructionViewProvider",
+                "printedName": "AutentikarCore.AutentikarSwiftUIInstructionViewProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarSwiftUIInstructionViewProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarSwiftUIInstructionViewProvider(im)init",
+            "mangledName": "$s14AutentikarCore0A30SwiftUIInstructionViewProviderCACycfc",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarSwiftUIInstructionViewProvider",
+        "mangledName": "$s14AutentikarCore0A30SwiftUIInstructionViewProviderC",
+        "moduleName": "AutentikarCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider",
+        "superclassNames": [
+          "AutentikarCore.AutentikarInstructionViewProvider",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutentikarUIKitInstructionViewProvider",
+        "printedName": "AutentikarUIKitInstructionViewProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewBuilder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarUIKitInstructionViewProvider",
+                "printedName": "AutentikarCore.AutentikarUIKitInstructionViewProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarUIKitInstructionViewProvider"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AutentikarCore.AutentikarInstructionActions) -> UIKit.UIView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutentikarInstructionActions",
+                    "printedName": "AutentikarCore.AutentikarInstructionActions",
+                    "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarUIKitInstructionViewProvider(im)initWithViewBuilder:",
+            "mangledName": "$s14AutentikarCore0A28UIKitInstructionViewProviderC11viewBuilderACSo6UIViewCAA0aD7ActionsCc_tcfc",
+            "moduleName": "AutentikarCore",
+            "objc_name": "initWithViewBuilder:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeView",
+            "printedName": "makeView(actions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarInstructionActions",
+                "printedName": "AutentikarCore.AutentikarInstructionActions",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AutentikarCore0A28UIKitInstructionViewProviderC04makeE07actions7SwiftUI03AnyE0VAA0aD7ActionsC_tF",
+            "mangledName": "$s14AutentikarCore0A28UIKitInstructionViewProviderC04makeE07actions7SwiftUI03AnyE0VAA0aD7ActionsC_tF",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarUIKitInstructionViewProvider",
+                "printedName": "AutentikarCore.AutentikarUIKitInstructionViewProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarUIKitInstructionViewProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarUIKitInstructionViewProvider(im)init",
+            "mangledName": "$s14AutentikarCore0A28UIKitInstructionViewProviderCACycfc",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarUIKitInstructionViewProvider",
+        "mangledName": "$s14AutentikarCore0A28UIKitInstructionViewProviderC",
+        "moduleName": "AutentikarCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider",
+        "superclassNames": [
+          "AutentikarCore.AutentikarInstructionViewProvider",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutentikarInstructionControllerProvider",
+        "printedName": "AutentikarInstructionControllerProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewControllerBuilder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarInstructionControllerProvider",
+                "printedName": "AutentikarCore.AutentikarInstructionControllerProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionControllerProvider"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AutentikarCore.AutentikarInstructionActions) -> UIKit.UIViewController",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutentikarInstructionActions",
+                    "printedName": "AutentikarCore.AutentikarInstructionActions",
+                    "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionControllerProvider(im)initWithViewControllerBuilder:",
+            "mangledName": "$s14AutentikarCore0A29InstructionControllerProviderC04viewD7BuilderACSo06UIViewD0CAA0aC7ActionsCc_tcfc",
+            "moduleName": "AutentikarCore",
+            "objc_name": "initWithViewControllerBuilder:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeView",
+            "printedName": "makeView(actions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarInstructionActions",
+                "printedName": "AutentikarCore.AutentikarInstructionActions",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionActions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AutentikarCore0A29InstructionControllerProviderC8makeView7actions7SwiftUI03AnyG0VAA0aC7ActionsC_tF",
+            "mangledName": "$s14AutentikarCore0A29InstructionControllerProviderC8makeView7actions7SwiftUI03AnyG0VAA0aC7ActionsC_tF",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarInstructionControllerProvider",
+                "printedName": "AutentikarCore.AutentikarInstructionControllerProvider",
+                "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionControllerProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionControllerProvider(im)init",
+            "mangledName": "$s14AutentikarCore0A29InstructionControllerProviderCACycfc",
+            "moduleName": "AutentikarCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionControllerProvider",
+        "mangledName": "$s14AutentikarCore0A29InstructionControllerProviderC",
+        "moduleName": "AutentikarCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider",
+        "superclassNames": [
+          "AutentikarCore.AutentikarInstructionViewProvider",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AutentikarCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -4649,7 +5523,6 @@
                 "mangledName": "$s14AutentikarCore13BaseViewModelC5$text7Combine9PublishedV9PublisherVySS_Gvs",
                 "moduleName": "AutentikarCore",
                 "implicit": true,
-                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -4678,7 +5551,6 @@
                 "mangledName": "$s14AutentikarCore13BaseViewModelC5$text7Combine9PublishedV9PublisherVySS_GvM",
                 "moduleName": "AutentikarCore",
                 "implicit": true,
-                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -9155,6 +10027,232 @@
             "children": [
               {
                 "kind": "Var",
+                "name": "photoIDScanViewProvider",
+                "printedName": "photoIDScanViewProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AutentikarCore.AutentikarInstructionViewProvider?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AutentikarInstructionViewProvider",
+                        "printedName": "AutentikarCore.AutentikarInstructionViewProvider",
+                        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14AutentikarCore0aB13CustomizationC12InstructionsC23photoIDScanViewProviderAA0a11InstructiongH0CSgvp",
+                "mangledName": "$s14AutentikarCore0aB13CustomizationC12InstructionsC23photoIDScanViewProviderAA0a11InstructiongH0CSgvp",
+                "moduleName": "AutentikarCore",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AutentikarCore.AutentikarInstructionViewProvider?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AutentikarInstructionViewProvider",
+                            "printedName": "AutentikarCore.AutentikarInstructionViewProvider",
+                            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC12InstructionsC23photoIDScanViewProviderAA0a11InstructiongH0CSgvg",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC12InstructionsC23photoIDScanViewProviderAA0a11InstructiongH0CSgvg",
+                    "moduleName": "AutentikarCore",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AutentikarCore.AutentikarInstructionViewProvider?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AutentikarInstructionViewProvider",
+                            "printedName": "AutentikarCore.AutentikarInstructionViewProvider",
+                            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC12InstructionsC23photoIDScanViewProviderAA0a11InstructiongH0CSgvs",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC12InstructionsC23photoIDScanViewProviderAA0a11InstructiongH0CSgvs",
+                    "moduleName": "AutentikarCore",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC12InstructionsC23photoIDScanViewProviderAA0a11InstructiongH0CSgvM",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC12InstructionsC23photoIDScanViewProviderAA0a11InstructiongH0CSgvM",
+                    "moduleName": "AutentikarCore",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "livenessCheckViewProvider",
+                "printedName": "livenessCheckViewProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AutentikarCore.AutentikarInstructionViewProvider?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AutentikarInstructionViewProvider",
+                        "printedName": "AutentikarCore.AutentikarInstructionViewProvider",
+                        "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14AutentikarCore0aB13CustomizationC12InstructionsC25livenessCheckViewProviderAA0a11InstructiongH0CSgvp",
+                "mangledName": "$s14AutentikarCore0aB13CustomizationC12InstructionsC25livenessCheckViewProviderAA0a11InstructiongH0CSgvp",
+                "moduleName": "AutentikarCore",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AutentikarCore.AutentikarInstructionViewProvider?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AutentikarInstructionViewProvider",
+                            "printedName": "AutentikarCore.AutentikarInstructionViewProvider",
+                            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC12InstructionsC25livenessCheckViewProviderAA0a11InstructiongH0CSgvg",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC12InstructionsC25livenessCheckViewProviderAA0a11InstructiongH0CSgvg",
+                    "moduleName": "AutentikarCore",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AutentikarCore.AutentikarInstructionViewProvider?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AutentikarInstructionViewProvider",
+                            "printedName": "AutentikarCore.AutentikarInstructionViewProvider",
+                            "usr": "c:@M@AutentikarCore@objc(cs)AutentikarInstructionViewProvider"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC12InstructionsC25livenessCheckViewProviderAA0a11InstructiongH0CSgvs",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC12InstructionsC25livenessCheckViewProviderAA0a11InstructiongH0CSgvs",
+                    "moduleName": "AutentikarCore",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC12InstructionsC25livenessCheckViewProviderAA0a11InstructiongH0CSgvM",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC12InstructionsC25livenessCheckViewProviderAA0a11InstructiongH0CSgvM",
+                    "moduleName": "AutentikarCore",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "iconColor",
                 "printedName": "iconColor",
                 "children": [
@@ -10016,6 +11114,94 @@
             "children": [
               {
                 "kind": "Var",
+                "name": "fontBold",
+                "printedName": "fontBold",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14AutentikarCore0aB13CustomizationC4TextC8fontBoldSo6UIFontCvp",
+                "mangledName": "$s14AutentikarCore0aB13CustomizationC4TextC8fontBoldSo6UIFontCvp",
+                "moduleName": "AutentikarCore",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC4TextC8fontBoldSo6UIFontCvg",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC4TextC8fontBoldSo6UIFontCvg",
+                    "moduleName": "AutentikarCore",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC4TextC8fontBoldSo6UIFontCvs",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC4TextC8fontBoldSo6UIFontCvs",
+                    "moduleName": "AutentikarCore",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC4TextC8fontBoldSo6UIFontCvM",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC4TextC8fontBoldSo6UIFontCvM",
+                    "moduleName": "AutentikarCore",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "font",
                 "printedName": "font",
                 "children": [
@@ -10813,6 +11999,20 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AutentikarCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AutentikarCore"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -11275,7 +12475,6 @@
           "ObjC",
           "SynthesizedProtocol",
           "NonSendable",
-          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -11381,6 +12580,13 @@
       "offset": 288,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/API\/Models\/Response\/ConfirmResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 664,
+      "length": 15,
+      "value": "\"support_image\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/API\/Service\/ServerManager.swift",
@@ -11835,7 +13041,7 @@
       "kind": "StringLiteral",
       "offset": 3334,
       "length": 8,
-      "value": "\"041F30\""
+      "value": "\"5F6368\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
@@ -11917,245 +13123,294 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6582,
+      "offset": 7571,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6861,
+      "offset": 7850,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7226,
+      "offset": 8215,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 7260,
+      "offset": 8249,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7382,
+      "offset": 8371,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7445,
+      "offset": 8434,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7730,
+      "offset": 8719,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 7764,
+      "offset": 8753,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 7824,
+      "offset": 8813,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8440,
+      "offset": 9429,
       "length": 23,
       "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8471,
+      "offset": 9460,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8593,
+      "offset": 9582,
       "length": 23,
       "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8653,
+      "offset": 9642,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8938,
+      "offset": 9927,
       "length": 23,
       "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8969,
+      "offset": 9958,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 9029,
+      "offset": 10018,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9647,
+      "offset": 10636,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 9680,
+      "offset": 10669,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9802,
+      "offset": 10791,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9864,
+      "offset": 10853,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10149,
+      "offset": 11138,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10182,
+      "offset": 11171,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10242,
+      "offset": 11231,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10861,
-      "length": 25,
-      "value": "\"PlusJakartaSans-Regular\""
+      "offset": 11364,
+      "length": 26,
+      "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10894,
+      "offset": 11398,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11016,
-      "length": 25,
-      "value": "\"PlusJakartaSans-Regular\""
+      "offset": 11520,
+      "length": 26,
+      "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11078,
+      "offset": 11583,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11363,
-      "length": 25,
-      "value": "\"PlusJakartaSans-Regular\""
+      "offset": 11868,
+      "length": 26,
+      "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 11396,
+      "offset": 11902,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 11456,
+      "offset": 11962,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11987,
+      "offset": 12771,
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12804,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 12926,
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 12988,
+      "length": 5,
+      "value": "\"ttf\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 13273,
+      "length": 25,
+      "value": "\"PlusJakartaSans-Regular\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13306,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13366,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 13897,
       "length": 33,
       "value": "\"autentikar.footer_claims_text_1\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12046,
+      "offset": 13956,
       "length": 33,
       "value": "\"autentikar.footer_claims_text_2\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12105,
+      "offset": 14015,
       "length": 33,
       "value": "\"autentikar.footer_claims_text_3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12164,
+      "offset": 14074,
       "length": 33,
       "value": "\"autentikar.footer_claims_text_4\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12223,
+      "offset": 14133,
       "length": 33,
       "value": "\"autentikar.footer_claims_text_5\""
     },
