@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bLoHzYAFkcerCWHELirowjhZwGw=
+		YkwFruHKefiGlnFXmEf2BFOtibc=
 		</data>
 		<key>Modules/AutentikarCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7tB1QSR2YOy8ORmeHwzjcJu1uo0=
+		RmanwnYwqduEH9DTjrURu3vAZ0U=
 		</data>
 		<key>Modules/AutentikarCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PFVCjUwzAvxWurSbwNBQych1RXM=
+		hExPlRAYGciDs+fT6zkmEIWTVEg=
 		</data>
 		<key>Modules/AutentikarCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/AutentikarCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PFVCjUwzAvxWurSbwNBQych1RXM=
+		/tsBbSjvLHj2nkrZTBYh+xfWoRI=
 		</data>
 		<key>Modules/AutentikarCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qX/O7uYOr20cXiztzgXuTLIJPrk=
+		zJMdh2M0+fjebVjX5S0JytnB9Hc=
 		</data>
 		<key>Modules/AutentikarCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7tB1QSR2YOy8ORmeHwzjcJu1uo0=
+		RmanwnYwqduEH9DTjrURu3vAZ0U=
 		</data>
 		<key>Modules/AutentikarCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BBUUUWzewRyW+fAApRLolykScXg=
+		p2TsPIEPEhlB+MMK5+xWHrXxys4=
 		</data>
 		<key>Modules/AutentikarCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/AutentikarCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BBUUUWzewRyW+fAApRLolykScXg=
+		anbWGjerEFG7AkfZTQdiQZHItao=
 		</data>
 		<key>Modules/AutentikarCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PK+oYZ6XcC3BuDEk7zA0NFh0KvE=
+		3+d08abQemLZ+Cc3Zn83xA5ArDk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -111,14 +111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8JL9IevDvxVI9K0cy5Hy33ry5l/qJF58JPR48gMa52E=
+			mIbiAj7+rCaKymTdmgdkDVxNqlQn2jccPCmoxiK76qM=
 			</data>
 		</dict>
 		<key>Modules/AutentikarCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NqiLvDWHZ6M5vKbdi66Apnmu/r+uIe7IkzUYv/wivlg=
+			C2ptavBL98tZlG8nrOoUhUK2m3r0dAGRYpcBvGx8vsE=
 			</data>
 		</dict>
 		<key>Modules/AutentikarCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -132,28 +132,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NqiLvDWHZ6M5vKbdi66Apnmu/r+uIe7IkzUYv/wivlg=
+			pc/C/pFn1LFGEaBLO+qjEhZE5ykYf7p+7yKxR48yiS8=
 			</data>
 		</dict>
 		<key>Modules/AutentikarCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cI5DlDTNO/i1lFjP8L/jDVDmmCfnGod68EthMi5Elns=
+			3csnAk6VTW2zN4zR/9AXgSLXo7B0Qc9EVXofHTrawa0=
 			</data>
 		</dict>
 		<key>Modules/AutentikarCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8JL9IevDvxVI9K0cy5Hy33ry5l/qJF58JPR48gMa52E=
+			mIbiAj7+rCaKymTdmgdkDVxNqlQn2jccPCmoxiK76qM=
 			</data>
 		</dict>
 		<key>Modules/AutentikarCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dRc3xxRQsItdJi8QkpNlHMumfu8WqA8vwxv3XFtXwkQ=
+			LtJMay/9jzCXveIlBi1Q1yHtLWEnsoUKRJvxAfPgaOU=
 			</data>
 		</dict>
 		<key>Modules/AutentikarCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -167,14 +167,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dRc3xxRQsItdJi8QkpNlHMumfu8WqA8vwxv3XFtXwkQ=
+			UXDbSad4FLe7cGr6iCAyCj2kROelaOMHNjXh/8DRplE=
 			</data>
 		</dict>
 		<key>Modules/AutentikarCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ONMA2cszuIW4f3wxaU3TK83a5pvd7qGdz64tHkirANc=
+			q9FI7eIeq3gpED/JDBGYX1xnfJ9fmOmXTuhymIsE9PQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

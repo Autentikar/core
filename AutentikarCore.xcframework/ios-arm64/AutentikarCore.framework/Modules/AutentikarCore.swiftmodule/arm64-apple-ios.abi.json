@@ -255,6 +255,9 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "spi_group_names": [
+              "AutentikarInternal"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -345,6 +348,9 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "spi_group_names": [
+              "AutentikarInternal"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -371,6 +377,9 @@
               "ObjC",
               "Override"
             ],
+            "spi_group_names": [
+              "AutentikarInternal"
+            ],
             "init_kind": "Designated"
           }
         ],
@@ -380,8 +389,12 @@
         "moduleName": "AutentikarCore",
         "declAttributes": [
           "AccessControl",
+          "SPIAccessControl",
           "RawDocComment",
           "ObjC"
+        ],
+        "spi_group_names": [
+          "AutentikarInternal"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "inheritsConvenienceInitializers": true,
@@ -3731,6 +3744,33 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AutentikarCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AutentikarCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AutentikarCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -4265,6 +4305,16 @@
             "usr": "s:SH",
             "mangledName": "$sSH"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AutentikarCore",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -6489,6 +6539,84 @@
           },
           {
             "kind": "Function",
+            "name": "presentInstructionsView",
+            "printedName": "presentInstructionsView(instructionType:imageSource:onAgree:onDismiss:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutentikarInstructionsType",
+                "printedName": "AutentikarCore.AutentikarInstructionsType",
+                "usr": "s:14AutentikarCore0A16InstructionsTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AutentikarCore13BaseViewModelC019presentInstructionsD015instructionType11imageSource7onAgree0L7DismissyAA0agI0O_SSSgyycyyctF",
+            "mangledName": "$s14AutentikarCore13BaseViewModelC019presentInstructionsD015instructionType11imageSource7onAgree0L7DismissyAA0agI0O_SSSgyycyyctF",
+            "moduleName": "AutentikarCore",
+            "declAttributes": [
+              "AccessControl",
+              "SPIAccessControl"
+            ],
+            "spi_group_names": [
+              "AutentikarInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "startFooterTimer",
             "printedName": "startFooterTimer()",
             "children": [
@@ -7742,7 +7870,11 @@
             "moduleName": "AutentikarCore",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "SPIAccessControl"
+            ],
+            "spi_group_names": [
+              "AutentikarInternal"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -9820,6 +9952,94 @@
                     "declKind": "Accessor",
                     "usr": "s:14AutentikarCore0aB13CustomizationC6ButtonC13disabledColorSo7UIColorCvM",
                     "mangledName": "$s14AutentikarCore0aB13CustomizationC6ButtonC13disabledColorSo7UIColorCvM",
+                    "moduleName": "AutentikarCore",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cornerRadius",
+                "printedName": "cornerRadius",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14AutentikarCore0aB13CustomizationC6ButtonC12cornerRadius0B10Foundation7CGFloatVvp",
+                "mangledName": "$s14AutentikarCore0aB13CustomizationC6ButtonC12cornerRadius0B8Graphics7CGFloatVvp",
+                "moduleName": "AutentikarCore",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC6ButtonC12cornerRadius0B10Foundation7CGFloatVvg",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC6ButtonC12cornerRadius0B8Graphics7CGFloatVvg",
+                    "moduleName": "AutentikarCore",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC6ButtonC12cornerRadius0B10Foundation7CGFloatVvs",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC6ButtonC12cornerRadius0B8Graphics7CGFloatVvs",
+                    "moduleName": "AutentikarCore",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14AutentikarCore0aB13CustomizationC6ButtonC12cornerRadius0B10Foundation7CGFloatVvM",
+                    "mangledName": "$s14AutentikarCore0aB13CustomizationC6ButtonC12cornerRadius0B8Graphics7CGFloatVvM",
                     "moduleName": "AutentikarCore",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -12959,7 +13179,7 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Common\/View\/MessageView\/MessageView.swift",
       "kind": "StringLiteral",
-      "offset": 2784,
+      "offset": 2840,
       "length": 13,
       "value": "\"000-000-000\""
     },
@@ -13210,330 +13430,337 @@
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6231,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6258,
+      "offset": 6502,
       "length": 8,
       "value": "\"082C4C\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7811,
+      "offset": 8055,
       "length": 8,
       "value": "\"082C4C\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8090,
+      "offset": 8334,
       "length": 8,
       "value": "\"082C4C\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8455,
+      "offset": 8699,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8489,
+      "offset": 8733,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8611,
+      "offset": 8855,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8674,
+      "offset": 8918,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8959,
+      "offset": 9203,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8993,
+      "offset": 9237,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 9053,
+      "offset": 9297,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9351,
+      "offset": 9595,
       "length": 8,
       "value": "\"3A3A3C\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9691,
+      "offset": 9935,
       "length": 23,
       "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 9722,
+      "offset": 9966,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9844,
+      "offset": 10088,
       "length": 23,
       "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9904,
+      "offset": 10148,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10189,
+      "offset": 10433,
       "length": 23,
       "value": "\"PlusJakartaSans-Light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10220,
+      "offset": 10464,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10280,
+      "offset": 10524,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10578,
+      "offset": 10822,
       "length": 8,
       "value": "\"3A3A3C\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10915,
+      "offset": 11159,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10948,
+      "offset": 11192,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11070,
+      "offset": 11314,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11132,
+      "offset": 11376,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11417,
+      "offset": 11661,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 11450,
+      "offset": 11694,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 11510,
+      "offset": 11754,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11643,
+      "offset": 11887,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 11677,
+      "offset": 11921,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11799,
+      "offset": 12043,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11862,
+      "offset": 12106,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12147,
+      "offset": 12391,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 12181,
+      "offset": 12425,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 12241,
+      "offset": 12485,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12729,
+      "offset": 12973,
       "length": 8,
       "value": "\"3A3A3C\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 13072,
+      "offset": 13316,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 13105,
+      "offset": 13349,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 13227,
+      "offset": 13471,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 13289,
+      "offset": 13533,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 13574,
+      "offset": 13818,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 13607,
+      "offset": 13851,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 13667,
+      "offset": 13911,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 13965,
+      "offset": 14209,
       "length": 8,
       "value": "\"3A3A3C\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 14220,
+      "offset": 14464,
       "length": 33,
       "value": "\"autentikar.footer_claims_text_1\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 14279,
+      "offset": 14523,
       "length": 33,
       "value": "\"autentikar.footer_claims_text_2\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 14338,
+      "offset": 14582,
       "length": 33,
       "value": "\"autentikar.footer_claims_text_3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 14397,
+      "offset": 14641,
       "length": 33,
       "value": "\"autentikar.footer_claims_text_4\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarCore\/AutentikarCore\/Utilities\/Customizations\/AutentikarCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 14456,
+      "offset": 14700,
       "length": 33,
       "value": "\"autentikar.footer_claims_text_5\""
     },
